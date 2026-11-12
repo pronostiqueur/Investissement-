@@ -1,0 +1,17 @@
+{
+  "expo": {
+    "name": "MD ZEZAYE",
+    "slug": "md-zezaye",
+    "version": "1.0.0",
+    "scheme": "mdzezaye",
+    "orientation": "portrait",
+    "userInterfaceStyle": "dark",
+    "backgroundColor": "#0a0a0a",
+    "ios": { "bundleIdentifier": "com.mdzezaye.app", "supportsTablet": false },
+    "android": { "package": "com.mdzezaye.app" },
+    "plugins": [
+      ["expo-image-picker", { "photosPermission": "MD ZEZAYE accède à vos photos pour publier des coupons." }]
+    ],
+    "extra": { "eas": { "projectId": "REMPLACER_PAR_L_ID_EXPO" } }
+  }
+}
